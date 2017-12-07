@@ -1,0 +1,47 @@
+body {
+  font-family: "Avenir Next";
+  margin: 0;
+  padding: 2rem 1rem;
+  background: url("../images/logo.png") no-repeat top center;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 4rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+h2 {
+  text-align: center;
+}
+
+dl {
+  text-align: center;
+}
+
+dt {
+  font-weight: 700;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  margin-bottom: .25rem;
+}
+
+dd {
+  margin: 0 0 1rem;
+}
+
+nav {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+p {
+  margin-top: 0;
+}

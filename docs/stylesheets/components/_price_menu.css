@@ -1,0 +1,19 @@
+.priceMenu {
+  display: flex;
+  margin: 0 0 .5rem;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.priceMenu dd,
+.priceMenu dt {
+  margin-bottom: 0;
+}
+
+.priceMenu dt {
+  padding-top: .25rem;
+}
+
+.priceMenu dd {
+  margin-left: 1rem;
+}

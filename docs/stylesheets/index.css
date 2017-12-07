@@ -1,5 +1,3 @@
-@import 'global.css';
-@import 'contact.css';
-@import 'logo.css';
-@import 'map.css';
-@import 'nav.css';
+@import 'base.css';
+@import 'layouts/index.css';
+@import 'components/index.css';

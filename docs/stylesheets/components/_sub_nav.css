@@ -1,0 +1,13 @@
+.subNav {
+  text-align: center;
+}
+
+.subNav a {
+  color: gray;
+  white-space: nowrap;
+  margin: 0 .5rem;
+}
+
+.subNav a.is-active {
+  color: black;
+}
