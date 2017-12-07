@@ -1,8 +1,8 @@
-@import '_contact.css';
-@import '_demo.css';
-@import '_logo.css';
-@import '_google_map.css';
-@import '_person.css';
-@import '_price_menu.css';
-@import '_service_package.css';
-@import '_sub_nav.css';
+@import 'contact.css';
+@import 'demo.css';
+@import 'logo.css';
+@import 'google_map.css';
+@import 'person.css';
+@import 'price_menu.css';
+@import 'service_package.css';
+@import 'sub_nav.css';
