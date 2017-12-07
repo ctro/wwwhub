@@ -4,8 +4,8 @@ body {
   padding: 2rem 1rem;
   background: url("../images/logo.png") no-repeat top center;
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 4rem;
+  background-position: center -1rem;
+  background-size: 80px 77px;
 }
 
 img {
