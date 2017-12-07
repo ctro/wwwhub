@@ -1,0 +1,36 @@
+.demoBike {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid lightgray;
+}
+
+.demoBike-details {
+  text-align: left;
+}
+
+.demoBike-image {
+  margin: 1rem -1rem;
+}
+
+@media screen and (min-width: 40em) {
+  .demoBike {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .demoBike h3 {
+    flex: 1 0 100%;
+  }
+
+  .demoBike-image {
+    flex: 0 1 45%;
+    margin: 0;
+  }
+
+  .demoBike-details {
+    flex: 0 0 50%;
+  }
+
+}

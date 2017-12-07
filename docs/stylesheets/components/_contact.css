@@ -1,25 +1,5 @@
-dl {
-  text-align: center;
-}
-
-dt {
-  font-weight: 700;
-  font-size: .75rem;
-  text-transform: uppercase;
-  letter-spacing: .05rem;
-  margin-bottom: .25rem;
-}
-
-dd {
-  margin: 0 0 1rem;
-}
-
 .hours {
   white-space: nowrap;
-}
-
-address {
-  font-style: normal;
 }
 
 @media screen and (min-width: 40em) {

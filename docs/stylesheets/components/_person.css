@@ -1,0 +1,17 @@
+.person {
+  text-align: center;
+}
+
+.person-image {
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+
+.person-name {
+  margin-bottom: 0;
+}
+
+.person-more {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
