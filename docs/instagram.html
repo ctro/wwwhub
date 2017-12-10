@@ -1,0 +1,20 @@
+<!-- 
+instafeed: http://instafeedjs.com/
+example: https://gist.github.com/bradwestfall/f5a010e96fb0c4d18556
+
+The Hub Bicycles Jackson Hole @thehub_jh
+User ID: 1357495186
+-->
+
+<script type="text/javascript" src="scripts/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: 1357495186,
+        clientId: 'YOUR_CLIENT_ID'
+    });
+    feed.run();
+</script>
+      
+<div id="instafeed"></div>
