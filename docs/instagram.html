@@ -1,20 +1,16 @@
 <!-- 
-instafeed: http://instafeedjs.com/
-example: https://gist.github.com/bradwestfall/f5a010e96fb0c4d18556
-
 The Hub Bicycles Jackson Hole @thehub_jh
-User ID: 1357495186
+
+Simplest iframe below, for one instagram post.
+Change the Id to change the post.
+
+There are two methods below, adding `/captioned` changes some things.
 -->
 
-<script type="text/javascript" src="scripts/instafeed.min.js"></script>
+<iframe src="https://www.instagram.com/p/BcxF7DEASsT/embed/captioned" 
+    width="200" height="240" frameborder="0" scrolling="no" allowtransparency="true">
+</iframe>
 
-<script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'user',
-        userId: 1357495186,
-        clientId: 'YOUR_CLIENT_ID'
-    });
-    feed.run();
-</script>
-      
-<div id="instafeed"></div>
+<iframe src="https://www.instagram.com/p/BcxF7DEASsT/embed" 
+    width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true">
+</iframe>
