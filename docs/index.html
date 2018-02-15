@@ -7,43 +7,77 @@
     <meta name="description" content="The highest quality bicycle service in the Tetons">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="stylesheets/index.css">
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/home_v1.css">
   </head>
   <body>
 
-    <div class="logo">
-      <h1>The Hub Bicycles</h1>
-      <h2>Jackson, Wyoming</h2>
-    </div>
+    <div class="grid">
+      <div class="nav">
+        <nav>
+          <a href="#">
+            <picture class="logo">
+              <source srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/186163/logo-small-2.png" class="logo-small" media="(max-width: 620px)">
+              <img class="logo-full" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/186163/logo-full-2.png" alt="The Hub Bicycles">
+            </picture>
+          </a>
+        </nav>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="events.html">Events</a>
-      <a href="service.html">Service</a>
-      <a href="demos.html">Demos</a>
-      <a href="people.html">People</a>
-    </nav>
-
-    <main>
-      <div class="l-contactGrid">
-        <dl>
-          <dt>Hours</dt>
-          <dd><div class="hours">Tuesday - Friday, 11am - 6pm</div><div class="hours">Saturday, 10am - 4pm</div></dd>
+        <dl class="contactInfo">
+          <dt>Location</dt>
+          <dd><address>Jackson, Wyoming<br />1160 Alpine Ln #1F &nbsp;&nbsp;<a href="https://www.google.com/maps/place/The+Hub+Bicycles,+1160+Alpine+Ln+%231F,+Jackson,+WY+83001/@43.4717048,-110.7873888,17z/data=!4m2!3m1!1s0x5353109db1d75263:0xf849c3ed3646312f">Map</a></address</dd>
+          <dt>Winter Hours</dt>
+          <dd><div class="hours">Tuesday - Friday, 10am - 6pm</div><div class="hours">Saturday, 10am - 5pm</div></dd>
           <dt>Phone</dt>
           <dd>307-200-6144</dd>
           <dt>Email</dt>
-          <dd>info@thehubbikes.com</dd>
-          <dt>Location</dt>
-          <dd><address>1160 Alpine Ln #1F</address></dd>
+          <dd><a href="mailto:info@thehubbikes.com">info@thehubbikes.com</a></dd>
+          <dt class="social-header">Social</dt>
+          <dd class="social-icons">
+            <a href="https://www.instagram.com/thehub_jh/" title="Instagram"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/186163/instagram1.png" /></a>
+            <a href="https://www.facebook.com/thehubbicycles/" title="Facebook"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/186163/facebook1.png" /></a>
+            <a href="https://vimeo.com/thehubbicycles" title="Vimeo"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/186163/vimeo1.png" /></a>
+          </dd>
         </dl>
-        <div class="googleMap">
-          <div class="googleMap-container">
-            <iframe class="googleMap-iframe" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBttCeiN4UromlGOhKwgDiX6gV18UTyph8&q=Hub+Bicycles,Jackson+WY" width="500" height="450" frameborder="0" style="border:0"></iframe>
-          </div>
-        </div>
+        <p>
+
+        </p>
       </div>
 
-    </main>
+      <div class="content">
+        <div class="SquareGrid" id="instagram">
+
+          <!-- <div class="item" style="background-image:url(https://scontent.cdninstagram.com/vp/c40507827b540ceba66ede02f79ac058/5B198635/t51.2885-15/s320x320/e35/26864336_142426786433356_404649433259573248_n.jpg)"></div>
+          <div class="item" style="background-image: url(https://scontent.cdninstagram.com/vp/54bd3feb5b6ff7b473d90e9d2671abaa/5B02ABE2/t51.2885-15/s320x320/e35/26869754_142160086461545_280245155775119360_n.jpg)"></div>
+          <div class="item" style="background-image: url(https://scontent.cdninstagram.com/vp/94f5f192a86010ca3e77439c74b09768/5AED370F/t51.2885-15/s320x320/e35/26363209_1604465822968473_5764267486178443264_n.jpg);"></div>
+          <div class="item" style="background-image: url(https://scontent.cdninstagram.com/vp/6ed3388d144287abc0332fe15f75451c/5AEA70E4/t51.2885-15/s320x320/e35/26864322_180338579388028_918889170439503872_n.jpg);"></div>
+          <div class="item" style="background-image: url(https://scontent.cdninstagram.com/vp/3cd0344c0a935f44758a5bd2d78a5eb7/5B21AA07/t51.2885-15/e35/p320x320/26347231_1913683802182448_7030947762329878528_n.jpg);"></div>
+          <div class="item" style="background-image: url(https://scontent.cdninstagram.com/vp/49977f3ad1ddf1dc974936dad36882ca/5B107C3A/t51.2885-15/s320x320/e35/26272014_142291019748488_188042661880397824_n.jpg);"></div>
+          <div class="item" style="background-image: url(https://scontent.cdninstagram.com/vp/659296134d05bdd662677e0fe7a27454/5B1D715B/t51.2885-15/s320x320/e35/26355562_2014003495543430_1754118408087011328_n.jpg);"></div>
+          <div class="item" style="background-image: url(https://scontent.cdninstagram.com/vp/e6db6d13dd6f1a31e2cb4d0dc5763867/5AEA2C16/t51.2885-15/s320x320/e35/26154123_191891818212835_969076829660905472_n.jpg);"></div>
+          <div class="item" style="background-image: url(https://scontent.cdninstagram.com/vp/f5651c992336f40291089545382b57c3/5A7515F2/t51.2885-15/s320x320/e15/25038184_129239084542719_9027575451471577088_n.jpg);"></div>
+          <div class="item" style="background-image: url(https://scontent.cdninstagram.com/vp/b05b8f96c01eab2d966e5d896737eb4a/5B23C410/t51.2885-15/s320x320/e35/26068168_208078593099570_48687671958044672_n.jpg);"></div> -->
+
+          <div class="video">
+            <div class="vimeo-container">
+              <iframe class="vimeo-video" src="https://player.vimeo.com/video/249545594?autoplay=1"
+              width="640" height="360" frameborder="0"
+              webkitallowfullscreen mozallowfullscreen allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+
+          <div class="brand brand1"><img src="https://www.ibiscycles.com/images/site/logo-ibis.png" /></div>
+          <div class="brand brand2"><img src="http://ww3.magicbus.ca/_i/img_TransitionLogo.png" /></div>
+          <div class="brand brand3"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/186163/SCOTT_LOGO_BLACK.jpg" /></div>
+          <div class="brand brand4"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/186163/BENNO_logo.png" /></div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <script type="text/javascript" src="scripts/instagram2.js"></script>
 
   </body>
 </html>
