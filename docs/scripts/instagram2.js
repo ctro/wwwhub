@@ -5,11 +5,11 @@ var token = '1357495186.1677ed0.8ef8dd3ba535467894710670d145e893',
     container = document.getElementById('instagram'),
     scrElement = document.createElement('script');
 
-window.mishaProcessResult = function (data) {
+window.processResult = function (data) {
     for (x in data.data) {
         container.innerHTML += '<div class="item" style="background-image:url(' + data.data[x].images.low_resolution.url + ')"></div>';
     }
 }
 
-scrElement.setAttribute('src', 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + token + '&count=' + num_photos + '&callback=mishaProcessResult');
+scrElement.setAttribute('src', 'https://api.instagram.com/v1/users/self/media/recent?access_token=' + token + '&count=' + num_photos + '&callback=processResult');
 document.body.appendChild(scrElement);
