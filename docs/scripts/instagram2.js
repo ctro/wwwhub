@@ -7,7 +7,7 @@ var token = '1357495186.1677ed0.8ef8dd3ba535467894710670d145e893',
 
 window.processResult = function (data) {
     for (x in data.data) {
-        container.innerHTML += '<div class="item" style="background-image:url(' + data.data[x].images.low_resolution.url + ')"></div>';
+        container.innerHTML += '<a href="' + data.data[x].link + '">click!</a><div class="item" style="background-image:url(' + data.data[x].images.low_resolution.url + ')"></div>';
     }
 }
 
