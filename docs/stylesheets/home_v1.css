@@ -143,6 +143,7 @@ img {
   background-size: cover;
   background-position: center center;
   background-color: whitesmoke;
+  border: none;
 }
 
 .SquareGrid {
